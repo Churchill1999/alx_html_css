@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones | Our Results</title>
+    <link rel="stylesheet" href="2-styles.css">
+    <!-- Link to custom icons CSS -->
+    <link rel="stylesheet" href="holberton-icons.css">
+</head>
+<body>
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Headphones for Every Beat</h1>
+            <p>Experience sound like never before.</p>
+            <a href="#" class="btn-primary">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- "What we do…" Section -->
+    <section class="what-we-do">
+        <div class="container">
+            <h2>What We Do</h2>
+            <div class="features">
+                <div class="feature">
+                    <span class="icon icon-design"></span>
+                    <h3>Innovative Design</h3>
+                    <p>Our headphones are designed to be ergonomic, stylish, and durable.</p>
+                </div>
+                <div class="feature">
+                    <span class="icon icon-quality"></span>
+                    <h3>Top Quality</h3>
+                    <p>High fidelity sound and noise cancellation for the best audio experience.</p>
+                </div>
+                <div class="feature">
+                    <span class="icon icon-support"></span>
+                    <h3>Customer Support</h3>
+                    <p>We provide 24/7 support to help you with any product issues.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- "Our Results" Section -->
+    <section class="our-results">
+        <div class="container">
+            <h2>Our Results</h2>
+            <div class="results">
+                <div class="result">
+                    <span class="icon icon-users"></span>
+                    <h3>10K+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="result">
+                    <span class="icon icon-awards"></span>
+                    <h3>25</h3>
+                    <p>Awards Won</p>
+                </div>
+                <div class="result">
+                    <span class="icon icon-products"></span>
+                    <h3>50+</h3>
+                    <p>Products Released</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
