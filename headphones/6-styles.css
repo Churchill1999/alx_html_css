@@ -1,0 +1,52 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Previous sections styles remain here... */
+
+/* Our Results Section */
+#our-results {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eee;
+}
+
+#our-results h2 {
+    margin-bottom: 40px;
+}
+
+/* Pentagon Container */
+.pentagon-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Pentagon Shape */
+.pentagon {
+    width: 100px;
+    position: relative;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    height: 100px;
+}
+
+@media (max-width: 480px) {
+    .pentagon-container {
+        gap: 10px;
+    }
+
+    .pentagon {
+        width: 60px;
+        height: 60px;
+    }
+}
